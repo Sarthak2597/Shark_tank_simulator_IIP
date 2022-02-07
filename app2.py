@@ -77,11 +77,11 @@ if __name__ == '__main__':
 
         col3, col4 = st.columns([3,3])
 
-        with col3:
+        with col4:
             idea = st.text_input('Name of your Business')
             prod = st.text_input("Brief description of your product")
 
-        with col4:
+        with col3:
             st.image("aman_asks1.jpg")
 
 
@@ -453,7 +453,7 @@ if __name__ == '__main__':
 
         col7, col8 = st.columns([3,3])
 
-        with col7:
+        with col8:
             sec = st.selectbox('Select Sector',
                                ("Food and drinks", "Service", "Clothing", "Healthcare", "Tourism",
                                 "Automobiles", "Beauty/Cosmetics", "Sociology", "Construction",
@@ -473,7 +473,7 @@ if __name__ == '__main__':
              'Select your experience in years',
              options=['0-2', '2-4', '4-8', '8+'])
 
-        with col8:
+        with col7:
             st.image("namita_asks1.jpg")
 
 
@@ -494,7 +494,7 @@ if __name__ == '__main__':
 
         col11, col12 = st.columns([3,3])
 
-        with col11:
+        with col12:
             mod = st.radio(
              "What is your business model?",
              ('B2B (Businesses serving other businesses)', 'B2C (Businesses serving customers direclty)'))
@@ -502,7 +502,7 @@ if __name__ == '__main__':
             holders = st.select_slider('How many owners does your company currently has',
              options=['1', '2', '3', '4', '5', '5+'])
 
-        with col12:
+        with col11:
             st.image("anupam_asks1.jpg")
 
 
@@ -598,10 +598,10 @@ if __name__ == '__main__':
 
 
             col15, col16 = st.columns([3, 3])
-            with col16:
+            with col15:
                 st.image("anupam_asks.jpg")
 
-            with col15:
+            with col16:
 
                 if out_anupam == 1:
                     opt.append("Anupam")
@@ -679,10 +679,10 @@ if __name__ == '__main__':
                              " Aap yeh sab band kar do aur naukri dhund lo.")
 
             col19, col20 = st.columns([3, 3])
-            with col20:
+            with col19:
                 st.image("ghazal_asks.jpg")
 
-            with col19:
+            with col20:
                 if out_ghazal == 1:
                     opt.append("Ghazal")
                     l = [1, -1]
@@ -757,10 +757,10 @@ if __name__ == '__main__':
 
 
             col23, col24 = st.columns([3, 3])
-            with col24:
+            with col23:
                 st.image("peyush_asks.jpg")
 
-            with col23:
+            with col24:
                 if out_peyush == 1:
                     opt.append("Peyush")
                     l = [1, -1]
