@@ -499,7 +499,7 @@ if __name__ == '__main__':
              "What is your business model?",
              ('B2B (Businesses serving other businesses)', 'B2C (Businesses serving customers direclty)'))
 
-            holders = st.select_slider('How many owners does your company currently has',
+            holders = st.select_slider('How many owners does your company currently have',
              options=['1', '2', '3', '4', '5', '5+'])
 
         with col11:
