@@ -482,11 +482,12 @@ if __name__ == '__main__':
 
         with col9:
             equ = st.number_input('Enter the equity you wish to offer (%)', min_value=0.0, max_value=100.0)
-            cap = st.number_input('Enter the capital you want to raise in INR', min_value=1)
+            cap = st.number_input('Enter the capital you want to raise in Lakhs (INR)', min_value=1)
 
         with col10:
             st.image("ashneer_asks1.jpg")
 
+        cap = cap*100000
         equ_temp = equ
         cap_temp = cap
 
