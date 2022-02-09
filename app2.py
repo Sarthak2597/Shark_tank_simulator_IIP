@@ -573,6 +573,9 @@ if __name__ == '__main__':
                                                   " start with Aman.")
             col13, col14 = st.columns([3, 3])
             with col13:
+                st.write("")
+                st.write("")
+                st.write("")
                 st.image("aman_asks.jpg")
 
             with col14:
@@ -613,6 +616,9 @@ if __name__ == '__main__':
 
             col15, col16 = st.columns([3, 3])
             with col15:
+                st.write("")
+                st.write("")
+                st.write("")
                 st.image("anupam_asks.jpg")
 
             with col16:
@@ -654,6 +660,9 @@ if __name__ == '__main__':
 
             col17, col18 = st.columns([3, 3])
             with col17:
+                st.write("")
+                st.write("")
+                st.write("")
                 st.image("ashneer_asks.jpg")
 
             with col18:
@@ -694,6 +703,9 @@ if __name__ == '__main__':
 
             col19, col20 = st.columns([3, 3])
             with col19:
+                st.write("")
+                st.write("")
+                st.write("")
                 st.image("ghazal_asks.jpg")
 
             with col20:
@@ -732,6 +744,9 @@ if __name__ == '__main__':
 
             col21, col22 = st.columns([3, 3])
             with col21:
+                st.write("")
+                st.write("")
+                st.write("")
                 st.image("namita_asks.jpg")
 
             with col22:
@@ -772,6 +787,9 @@ if __name__ == '__main__':
 
             col23, col24 = st.columns([3, 3])
             with col23:
+                st.write("")
+                st.write("")
+                st.write("")
                 st.image("peyush_asks.jpg")
 
             with col24:
@@ -813,6 +831,9 @@ if __name__ == '__main__':
 
             col25, col26 = st.columns([3, 3])
             with col25:
+                st.write("")
+                st.write("")
+                st.write("")
                 st.image("vineeta asks.jpg")
 
             with col26:
