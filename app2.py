@@ -932,4 +932,6 @@ if __name__ == '__main__':
     st.write("")
     st.subheader("Thanks for Playing")
     st.write("How did you fare? Kitni investment mili? If you like this simulator, "
-             "please [subscribe](https://www.youtube.com/c/IndiainPixels) to our channel, India in Pixels on YouTube. ")
+             "please [subscribe](https://www.youtube.com/c/IndiainPixels) to our channel, India in Pixels on YouTube. " 
+             "You can also follow us on Instagram [Sarthak](https://www.instagram.com/ns_sarthakh/), [Dev](https://www.instagram.com/dev_patel_511/)"
+             " and [Gauri](https://www.instagram.com/_gauripandey_/).")
